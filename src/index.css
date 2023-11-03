@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: lightgoldenrodyellow;
+}
+
+
+
+.cajas {
+  background-color: white;
+  width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  word-wrap: break-word;
+  margin-bottom: 30px; /* Add margin at the bottom to create separation */
+}
+
+/* Estilo para el botón "Guardar" (color azul) */
+/* Estilo para el botón "Guardar" (color azul) */
+.guardar {
+  background-color: blue;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+
+/* Estilo para el botón "Eliminar" (color rojo) */
+button.eliminar {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Agregar profundidad */
+}
+
+/* Estilo para las cajas de notas */
+.cajas {
+  background-color: white;
+  width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  word-wrap: break-word;
+  margin-bottom: 30px; /* Agregar margen en la parte inferior para la separación */
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); /* Agregar profundidad */
+}
+
+/* Estilo para el contenedor del formulario */
+.note-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Separación de 10 píxeles entre elementos internos */
+  align-items: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para los elementos internos del formulario */
+.note-form input[type="text"] {
+  width: 90%; /* Hace que los inputs ocupen todo el ancho disponible */
+  height: 40px;
+  padding: 5px;
+}
+
+
+/* Style for the search input */
+/* Style for the search input */
+.search-input {
+  width: 90%; /* Same width as the note inputs */
+  height: 40px;
+  padding: 5px;
+  background-color: white; /* Background color */
+  border: 1px solid black; /* Add black border */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  margin-bottom: 10px; /* Similar to the note inputs' margin */
+}
+
+/* Add any other styles you want to match the note inputs' appearance */
+
+/* Add any other styles you want to match the note inputs' appearance */
+
